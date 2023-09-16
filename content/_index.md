@@ -20,7 +20,7 @@ sections:
         <br>
       cta:
         label: Register now
-        url: 'https://forms.gle/6BEMc3DYuU52yfGn8'
+        url: 'https://events.humanitix.com/ai-safety-unconference-australia-2023'
         icon_pack: fas
         icon: star
         # Optionally, add an alternative CTA link
