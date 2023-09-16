@@ -21,7 +21,7 @@ sections:
         icon_pack: fas
         icon: star
         # Optionally, add an alternative CTA link
-       cta_alt:
+        cta_alt:
           label: Learn more
           url: 'https://docs.google.com/document/d/1TRfgYpy8dOTXU_KJpqq1ZkBIUKqpyOaW6vBqufpRqGw/edit'
   - block: markdown
