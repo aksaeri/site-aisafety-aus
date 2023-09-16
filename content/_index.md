@@ -14,16 +14,25 @@ sections:
       text: |-
         <br>
 
-        Learn about AI risks, and connect and collaborate on Australian projects to advance AI safety
+
+        Attend the AI Safety Unconference on 22 September 2023 at Melbourne University to connect and collaborate on Australian projects to advance AI safety.
+
+        <br>
       cta:
-        label: Get involved
+        label: Register now
         url: 'https://forms.gle/6BEMc3DYuU52yfGn8'
         icon_pack: fas
         icon: star
         # Optionally, add an alternative CTA link
-        cta_alt:
-          label: Learn more
-          url: 'https://docs.google.com/document/d/1TRfgYpy8dOTXU_KJpqq1ZkBIUKqpyOaW6vBqufpRqGw/edit'
+            # cta:
+      #   label: Get involved
+      #   url: 'https://forms.gle/6BEMc3DYuU52yfGn8'
+      #   icon_pack: fas
+      #   icon: star
+      #   # Optionally, add an alternative CTA link
+      # cta_alt:
+      #   label: Learn more >
+      #   url: 'https://docs.google.com/document/d/1TRfgYpy8dOTXU_KJpqq1ZkBIUKqpyOaW6vBqufpRqGw/edit'
   - block: markdown
     content:
       title: About AI safety   
@@ -67,7 +76,10 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: Contact [Alexander Saeri](alexander@aksaeri.com) for more information on AI governance in Australia. Contact [Chris Leong](walkraft@gmail.com) for more information on technical AI safety in Australia.
+      text: |-
+      Contact [Alexander Saeri](alexander@aksaeri.com) for more information on AI governance in Australia. 
+
+      Contact [Chris Leong](walkraft@gmail.com) for more information on technical AI safety in Australia.
       # Contact (add or remove contact options as necessary)
       email: alexander@aksaeri.com
       appointment_url: 'https://calendar.app.google/sv3Sb5sjUxxTdssv8'
