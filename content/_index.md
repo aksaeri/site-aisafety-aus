@@ -44,6 +44,8 @@ sections:
     
         **AI governance** is an umbrella term for non-technical approaches to improve AI safety: how decisions are made about AI, and what institutions and arrangements help those decisions to be made well. It includes norms, international agreements and treaties, shared beliefs and practices, standards, and ‘ways of doing things’.
 
+    design:
+      columns: '2'
   - block: markdown
     content:
       title: AI safety in Australia 
@@ -56,7 +58,7 @@ sections:
         However, it's also worthwhile to build an Australian community of people who care about AI risks and work to address them. This is because the most capable systems in 2023 are likely to proliferate globally; policy and governance arrangements must be made for the impacts of AI on Australians, just as they need to be made for other jurisdictions; and Australia as a government and community (of businesses, organisations, civil society, academics, etc) has a role to play in supporting effective international arrangements that will reduce catastrophic risks from AI.
 
     design:
-      columns: '1'
+      columns: '2'
   - block: portfolio
     id: projects
     content:
@@ -67,7 +69,7 @@ sections:
       default_button_index: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: compact
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
