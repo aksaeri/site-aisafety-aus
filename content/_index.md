@@ -50,33 +50,27 @@ sections:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-  - block: collection
+  - block: portfolio
+    id: projects
     content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
+      title: Projects
       filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
+        folders:
+          - project
+      default_button_index: 0
     design:
-      view: card
+      # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-    - block: contact
+      view: compact
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
     id: contact
     content:
       title: Contact
       subtitle:
-      text: 
+      text: Contact [Alexander Saeri](alexander@aksaeri.com) for more information on AI governance in Australia. Contact [Chris Leong](walkraft@gmail.com) for more information on technical AI safety in Australia.
       # Contact (add or remove contact options as necessary)
       email: alexander@aksaeri.com
-      phone: +61 405 519 733
       appointment_url: 'https://calendar.app.google/sv3Sb5sjUxxTdssv8'
       # Automatically link email and phone or display as text?
       autolink: true
