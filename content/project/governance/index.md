@@ -1,5 +1,5 @@
 ---
-title: Governance
+title: AI governance opportunities
 date: 2023-09-16T09:57:47.650Z
 summary: >-
   [Alexander Saeri](https://www.aksaeri.com) is seeking interested people to
