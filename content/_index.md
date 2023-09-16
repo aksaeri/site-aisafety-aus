@@ -16,14 +16,14 @@ sections:
 
         Learn about AI risks, and connect and collaborate on Australian projects to advance AI safety
       cta:
-            label: Get involved
-            url: 'https://forms.gle/6BEMc3DYuU52yfGn8'
-            icon_pack: fas
-            icon: star
-          # Optionally, add an alternative CTA link
-          cta_alt:
-            label: Learn more
-            url: 'https://docs.google.com/document/d/1TRfgYpy8dOTXU_KJpqq1ZkBIUKqpyOaW6vBqufpRqGw/edit'
+        label: Get involved
+        url: 'https://forms.gle/6BEMc3DYuU52yfGn8'
+        icon_pack: fas
+        icon: star
+        # Optionally, add an alternative CTA link
+     cta_alt:
+        label: Learn more
+        url: 'https://docs.google.com/document/d/1TRfgYpy8dOTXU_KJpqq1ZkBIUKqpyOaW6vBqufpRqGw/edit'
   - block: markdown
     content:
       title: About AI safety   
@@ -64,6 +64,7 @@ sections:
       view: compact
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+- block: contact
     id: contact
     content:
       title: Contact
