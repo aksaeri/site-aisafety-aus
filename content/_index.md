@@ -27,7 +27,7 @@ sections:
   - block: markdown
     content:
       title: About AI safety   
-      text:
+      text: |-
     
         The development and deployment of increasingly capable AI systems involve novel risks and opportunities. Alongside current and pressing risks, there are also potentially catastrophic risks from human misuse of capable AI systems, AI systems acting in ways that are misaligned with human goals, or the intensification of other risks through competition or conflict over AI’s benefits and advantages.
 
@@ -38,7 +38,7 @@ sections:
   - block: markdown
     content:
       title: AI safety in Australia 
-      text:
+      text: |-
     
         in 2023, the most advanced AI systems ("frontier AI") are being developed by companies in the US and UK. However, Australia and Australians have a role to play in safely navigating transitions to a world with advanced AI systems.
 
