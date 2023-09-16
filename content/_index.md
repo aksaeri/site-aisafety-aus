@@ -44,6 +44,8 @@ sections:
     
         **AI governance** is an umbrella term for non-technical approaches to improve AI safety: how decisions are made about AI, and what institutions and arrangements help those decisions to be made well. It includes norms, international agreements and treaties, shared beliefs and practices, standards, and ‘ways of doing things’.
 
+        For an introduction to possible catastrophic risks from AI and pathways to safety, read or watch Ben Garfinkel's talk at Effective Altruism Global: London in May 2023: [YouTube recording of _Catastrophic risks from unsafe AI_](https://www.youtube.com/watch?v=h_i2qfVAfus); [Article summary](https://forum.effectivealtruism.org/posts/goYTp3CyLA4dnL2kN/catastrophic-risks-from-unsafe-ai-navigating-a-tightrope).
+
     design:
       columns: '2'
   - block: markdown
@@ -56,6 +58,8 @@ sections:
         At a minimum, Australian technical, policy and governance talent could be deployed to address global issues (e.g., through research), or directly address issues in jurisdictions where frontier AI is being developed, governed, and regulated (e.g., by working in those jurisdictions).
 
         However, it's also worthwhile to build an Australian community of people who care about AI risks and work to address them. This is because the most capable systems in 2023 are likely to proliferate globally; policy and governance arrangements must be made for the impacts of AI on Australians, just as they need to be made for other jurisdictions; and Australia as a government and community (of businesses, organisations, civil society, academics, etc) has a role to play in supporting effective international arrangements that will reduce catastrophic risks from AI.
+
+        For information about what Australian governments could do to address AI risks, you can read an [open letter from Australians for AI Safety](https://www.australiansforaisafety.com.au/), or read a detailed [policy submission by Good Ancestors Policy](https://www.goodancestors.org.au/s/Publications-2023-DISR-submission-safe-and-responsible-AI.pdf) (PDF) to the Commonwealth Department of Industry, Science and Resources [consultation on _Safe and Responsible AI_](https://consult.industry.gov.au/supporting-responsible-ai)
 
     design:
       columns: '2'
