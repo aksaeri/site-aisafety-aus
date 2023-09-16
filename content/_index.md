@@ -81,6 +81,7 @@ sections:
         Contact [Alexander Saeri](alexander@aksaeri.com) for more information on AI governance in Australia. 
 
         Contact [Chris Leong](walkraft@gmail.com) for more information on technical AI safety in Australia.
+    
       # Contact (add or remove contact options as necessary)
       email: alexander@aksaeri.com
       appointment_url: 'https://calendar.app.google/sv3Sb5sjUxxTdssv8'
