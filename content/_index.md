@@ -46,9 +46,7 @@ sections:
 
         However, it's also worthwhile to build an Australian community of people who care about AI risks and work to address them. This is because the most capable systems in 2023 are likely to proliferate globally; policy and governance arrangements must be made for the impacts of AI on Australians, just as they need to be made for other jurisdictions; and Australia as a government and community (of businesses, organisations, civil society, academics, etc) has a role to play in supporting effective international arrangements that will reduce catastrophic risks from AI.
 
-     design:
-      # See Page Builder docs for all section customization options.
-      # Choose how many columns the section has. Valid values: '1' or '2'.
+    design:
       columns: '1'
   - block: portfolio
     id: projects
