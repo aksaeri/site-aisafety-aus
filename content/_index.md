@@ -8,31 +8,21 @@ sections:
   - block: hero
     content:
       title: |-
-        AI safety in Australia
+        AI Safety Unconference
       image:
         filename: welcome.jpg
       text: |-
         <br>
 
 
-        Attend the AI Safety Unconference on 22 September 2023 at Melbourne University to connect and collaborate on Australian projects to advance AI safety.
+        Attend the AI Safety Unconference on 22 September 2023 at University of Melbourne to connect and collaborate on Australian projects to advance AI safety.
 
         <br>
       cta:
-        label: Register now
+        label: Learn more & register now!
         url: 'https://events.humanitix.com/ai-safety-unconference-australia-2023'
         icon_pack: fas
         icon: star
-        # Optionally, add an alternative CTA link
-            # cta:
-      #   label: Get involved
-      #   url: 'https://forms.gle/6BEMc3DYuU52yfGn8'
-      #   icon_pack: fas
-      #   icon: star
-      #   # Optionally, add an alternative CTA link
-      # cta_alt:
-      #   label: Learn more >
-      #   url: 'https://docs.google.com/document/d/1TRfgYpy8dOTXU_KJpqq1ZkBIUKqpyOaW6vBqufpRqGw/edit'
   - block: markdown
     content:
       title: About AI safety   
