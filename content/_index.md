@@ -59,14 +59,14 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects
+      title: Get involved
       filters:
         folders:
           - project
       default_button_index: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
