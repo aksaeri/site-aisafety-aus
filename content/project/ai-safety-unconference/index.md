@@ -11,10 +11,10 @@ summary: >-
   The "unconference" format means that attendees will drive the agenda; nominating sessions they wish to lead or attend. These sessions are then voted on and flexibly allocated to meeting spaces. This format harnesses the collective talents of the attendees, encourages collaboration, and stimulates interactive sessions that are tailored to the interests and expertise of the participants.
 
 
-  [R﻿egister to attend on 22 September 2023](https://events.humanitix.com/ai-safety-unconference-australia-2023)
+  - [R﻿egister to attend on 22 September 2023](https://events.humanitix.com/ai-safety-unconference-australia-2023)
 draft: false
 featured: false
-external_link: https://events.humanitix.com/ai-safety-unconference-australia-2023
+external_link: ""
 image:
   filename: 373713993_6631820366879716_5432710407397355081_n.jpg
   focal_point: Smart
