@@ -23,6 +23,9 @@ sections:
         url: 'https://events.humanitix.com/ai-safety-unconference-australia-2023'
         icon_pack: fas
         icon: star
+    design:
+      background:
+        color: #004ba0
   - block: markdown
     content:
       title: About AI safety   
