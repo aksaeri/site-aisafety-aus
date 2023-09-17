@@ -8,10 +8,9 @@ summary: >-
   activities, as well as raising funding to support this work.
 
 
-  [Read more about the opportunities](https://docs.google.com/document/d/1TRfgYpy8dOTXU_KJpqq1ZkBIUKqpyOaW6vBqufpRqGw/edit)
+  - [Read more about the opportunities](https://docs.google.com/document/d/1TRfgYpy8dOTXU_KJpqq1ZkBIUKqpyOaW6vBqufpRqGw/edit) 
 
-
-  [Express interest and stay involved](https://docs.google.com/forms/d/e/1FAIpQLScSas60O0DUXSImMMn2d8f03WaHO88Y0lmqjDf82s8k0sBgUg/viewform)
+  - [Express interest and stay involved](https://docs.google.com/forms/d/e/1FAIpQLScSas60O0DUXSImMMn2d8f03WaHO88Y0lmqjDf82s8k0sBgUg/viewform)
 draft: false
 featured: false
 image:
