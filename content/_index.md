@@ -10,7 +10,7 @@ sections:
       title: |-
         AI Safety Unconference
       image:
-        filename: welcome.jpg
+        filename: aisafetyunconf.webp
       text: |-
         <br>
 
