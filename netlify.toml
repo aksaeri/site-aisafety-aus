@@ -19,3 +19,9 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[[redirects]]
+  from = "/aisf"
+  to = "https://docs.google.com/forms/d/1UyIi554ipN6cUrpK3YxBFxVptUnbr8l2GgYsrmDfXrk/viewform"
+  status = 301
+  force = true 
