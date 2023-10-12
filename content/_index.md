@@ -8,19 +8,18 @@ sections:
   - block: hero
     content:
       title: |-
-        AI Safety Unconference
+        AI Safety Fundamentals
       image:
-        filename: aisafetyunconf.webp
+        filename: aisf_header.jpg
       text: |-
         <br>
 
-
-        Attend the AI Safety Unconference on 22 September 2023 at University of Melbourne to connect and collaborate on Australian projects to advance AI safety.
+        Learn about AI risks and safety through two 8 week courses designed by [BlueDot Impact](https://aisafetyfundamentals.com/), and coordinated by Australians. Take the Alignment track if you want to learn about technical challenges and promising pathways in developing safe highly-capable AI systems. Take the Governance track if you want to learn about policy and governance approaches to addressing risks from highly-capable AI systems. 
 
         <br>
       cta:
-        label: Learn more & register now!
-        url: 'https://events.humanitix.com/ai-safety-unconference-australia-2023'
+        label: Express interest
+        url: 'https://aisafety.org.au/fundamentals-eoi'
         icon_pack: fas
         icon: star
     design:
