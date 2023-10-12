@@ -21,7 +21,7 @@ sections:
         url: 'https://aisafety.org.au/fundamentals-eoi'
         icon_pack: fas
         icon: star
-    cta_alt:
+      cta_alt:
         label: Learn more
         url: 'https://aisafetyfundamentals.com'
     design:
