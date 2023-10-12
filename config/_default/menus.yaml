@@ -10,6 +10,6 @@ main:
   - name: Contact
     url: #contact
     weight: 60
-  - name: Register for the AI Safety Unconference
-    url: 'https://events.humanitix.com/ai-safety-unconference-australia-2023'
-    weight: 90
+#  - name: Register for the AI Safety Unconference
+#    url: 'https://events.humanitix.com/ai-safety-unconference-australia-2023'
+#    weight: 90
