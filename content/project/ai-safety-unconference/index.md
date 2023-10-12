@@ -12,7 +12,7 @@ summary: >-
 
 
   - [R﻿egister to attend on 22 September 2023](https://events.humanitix.com/ai-safety-unconference-australia-2023)
-draft: false
+draft: true
 featured: false
 external_link: ""
 image:
