@@ -2,7 +2,7 @@
 title: AI Safety Australia & New Zealand
 date: 2023-09-16T09:48:24.389Z
 summary: >-
-  This community, convened by Chris Leong, was created for people in Australia
+  This community, convened by Yanni Kyriakos and Chris Leong, was created for people in Australia
   or New Zealand who are interested in preventing existential risk from AI. AI
   Safety ANZ organises online events and have active Facebook chat discussions.
 
@@ -21,7 +21,7 @@ summary: >-
   * [Join the Facebook group](https://www.facebook.com/groups/1099249420923957/)
 
 
-  **AI Safety Sydney**, convened by Chris Leong
+  **AI Safety Sydney**, convened by Yanni Kyriakos and Chris Leong
 
 
   * [Join the Facebook group](https://www.facebook.com/groups/4642042999234413)
