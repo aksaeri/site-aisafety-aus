@@ -10,18 +10,20 @@ sections:
       title: |-
         AI Safety Fundamentals
       image:
-        filename: aisf_header.jpg
+        filename: aisf_hero.png
       text: |-
         <br>
 
-        Learn about AI risks and safety through two 8 week courses designed by [BlueDot Impact](https://aisafetyfundamentals.com/), and coordinated by Australians. Take the Alignment track if you want to learn about technical challenges and promising pathways in developing safe highly-capable AI systems. Take the Governance track if you want to learn about policy and governance approaches to addressing risks from highly-capable AI systems. 
-
+        Learn about AI risks and safety through two 8 week courses designed by [BlueDot Impact](https://aisafetyfundamentals.com/), and coordinated by Australians. 
         <br>
       cta:
         label: Express interest
         url: 'https://aisafety.org.au/fundamentals-eoi'
         icon_pack: fas
         icon: star
+    cta-alt:
+        label: Learn more
+        url: 'https://aisafetyfundamentals.com'
     design:
       background:
         color: #004ba0
