@@ -14,7 +14,7 @@ sections:
       text: |-
         <br>
 
-        Learn about AI risks and safety through two 8 week courses designed by [BlueDot Impact](https://aisafetyfundamentals.com/), and coordinated by Australians. 
+        Learn about AI Alignment and/or Governance in an 8 week course designed by [BlueDot Impact](https://aisafetyfundamentals.com/), and coordinated by Australians. 
         <br>
       cta:
         label: Express interest
