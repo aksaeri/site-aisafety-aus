@@ -8,8 +8,8 @@
 appearance:
   theme_day: ocean
   theme_night: minimal
-  font: native
-  font_size: L
+  font: olive
+  font_size: m
 
 # SEO
 
@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'AI safety community in Australia'
+    org_name: 'AI Safety Australia'
+    description: 'Understand AI risks, take action to improve AI safety, and connect with the AI Safety community in Australia'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -45,17 +45,17 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Alexander Saeri. Affiliated with [The Good Ancestors Project](https://goodancestors.org.au). This work is licensed under {license}'
     license:
       enable: true
-      allow_derivatives: false
+      allow_derivatives: true
       share_alike: true
-      allow_commercial: false
+      allow_commercial: true
 
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: '2 Jan 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
