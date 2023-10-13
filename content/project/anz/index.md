@@ -13,7 +13,7 @@ draft: false
 featured: false
 external_link: ""
 image:
-  filename: 
+  filename: 377491340_263637153300456_7778005959629568764_n.jpg
   focal_point: Smart
   preview_only: false
 ---

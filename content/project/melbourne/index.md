@@ -11,7 +11,7 @@ draft: false
 featured: false
 external_link: ""
 image:
-  filename: john-simmons-w-n79nM5CTI-unsplash.jps
+  filename: john-simmons-w-n79nM5CTI-unsplash.jpg
   focal_point: Smart
   preview_only: false
 ---
