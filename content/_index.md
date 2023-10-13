@@ -14,8 +14,10 @@ sections:
       text: |-
         <br>
 
-        Learn about AI Alignment and/or Governance in an 8 week course designed by [BlueDot Impact](https://aisafetyfundamentals.com/), and coordinated by Australians. 
+        Learn about AI Alignment and/or AI Governance in an 8 week course designed by [BlueDot Impact](https://aisafetyfundamentals.com/), and coordinated by Australian experts. 
+
         <br>
+
       cta:
         label: Express interest
         url: 'https://aisafety.org.au/fundamentals-eoi'
