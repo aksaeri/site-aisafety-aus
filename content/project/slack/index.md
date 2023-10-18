@@ -2,8 +2,9 @@
 title: AI Governance Slack Channel
 date: 2023-10-18T02:07:09.858Z
 summary: Join the Slack channel!
-draft: true
+draft: false
 featured: false
+tags: standalone
 image:
   filename: featured
   focal_point: Smart
