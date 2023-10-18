@@ -66,6 +66,7 @@ sections:
       filters:
         folders:
           - project
+        exclude_tags: standalone
       default_button_index: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -85,7 +86,7 @@ sections:
         Contact [Chris Leong](walkraft@gmail.com) for more information on technical AI safety in Australia.
     
       # Contact (add or remove contact options as necessary)
-      email: alexander@aksaeri.com
+      # email: alexander@aksaeri.com
       appointment_url: 'https://calendar.app.google/sv3Sb5sjUxxTdssv8'
       # Automatically link email and phone or display as text?
       autolink: true
