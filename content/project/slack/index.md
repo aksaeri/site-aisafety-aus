@@ -4,7 +4,6 @@ date: 2023-10-18T02:07:09.858Z
 summary: Join the Slack channel!
 draft: false
 featured: false
-tags: standalone
 image:
   filename: featured
   focal_point: Smart
