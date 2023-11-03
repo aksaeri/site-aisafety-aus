@@ -5,6 +5,7 @@ summary: >-
   AI Safety Melbourne is convened by EJ Watkins and Justin Olive
 
   * [Join the Facebook group](https://www.facebook.com/groups/1099249420923957/)
+    
   * To keep up to date with events and opportunities in Melbourne, the best thing to do is [sign up to our mailing list](https://eepurl.com/iuqHgY)
 
 
