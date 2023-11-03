@@ -1,7 +1,7 @@
 ---
 title: AI Governance Slack
 date: 2023-10-18T02:25:27.130Z
-summary: J﻿oin the Slack channel to talk AI governance in Australia
+summary: Join the Slack channel to talk AI governance in Australia
 draft: false
 featured: false
 image:
