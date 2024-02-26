@@ -14,13 +14,13 @@ sections:
       text: |-
         <br>
 
-        Learn about AI Alignment and/or AI Governance in an 8 week course designed by [BlueDot Impact](https://aisafetyfundamentals.com/), and coordinated by Australian experts. 
+        Learn about AI Governance in an 8 week course designed by [BlueDot Impact](https://aisafetyfundamentals.com/). Applications close 13 March 2024
 
         <br>
 
       cta:
-        label: Express interest
-        url: 'https://aisafety.org.au/fundamentals-eoi'
+        label: Apply now
+        url: 'https://forms.bluedot.org/BSUqN3WHmeL9MbzAj2P6?prefill_Source=landingpage&utm_source=aisafetyorgau'
         icon_pack: fas
         icon: star
       cta_alt:
