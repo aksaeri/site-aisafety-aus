@@ -5,33 +5,33 @@ date: 2023-09-01
 type: landing
 
 sections:
-  - block: hero
-    content:
-      title: |-
-        AI Safety Fundamentals
-      image:
-        filename: aisf_hero.png
-      text: |-
-        <br>
+  # - block: hero
+  #   content:
+  #     title: |-
+  #       AI Safety Fundamentals
+  #     image:
+  #       filename: aisf_hero.png
+  #     text: |-
+  #       <br>
 
-        Learn about AI Governance in an 8 week course designed by [BlueDot Impact](https://aisafetyfundamentals.com/). Applications close 13 March 2024
+  #       Learn about AI Governance in an 8 week course designed by [BlueDot Impact](https://aisafetyfundamentals.com/). Applications close 13 March 2024
 
-        <br>
+  #       <br>
 
-      cta:
-        label: Apply now
-        url: 'https://forms.bluedot.org/BSUqN3WHmeL9MbzAj2P6?prefill_Source=landingpage&utm_source=aisafetyorgau'
-        icon_pack: fas
-        icon: star
-      cta_alt:
-        label: Learn more
-        url: 'https://aisafetyfundamentals.com'
-    design:
-      background:
-        color: #004ba0
+  #     cta:
+  #       label: Apply now
+  #       url: 'https://forms.bluedot.org/BSUqN3WHmeL9MbzAj2P6?prefill_Source=landingpage&utm_source=aisafetyorgau'
+  #       icon_pack: fas
+  #       icon: star
+  #     cta_alt:
+  #       label: Learn more
+  #       url: 'https://aisafetyfundamentals.com'
+  #   design:
+  #     background:
+  #       color: #004ba0
   - block: markdown
     content:
-      title: About AI safety   
+      title: About AI safety  
       text: |-
     
         The development and deployment of increasingly capable AI systems involve novel risks and opportunities. Alongside current and pressing risks, there are also potentially catastrophic risks from human misuse of capable AI systems, AI systems acting in ways that are misaligned with human goals, or the intensification of other risks through competition or conflict over AI’s benefits and advantages.
