@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: ocean
-  theme_night: minimal
-  font: olive
-  font_size: m
+  theme_day: ai_safety_modern
+  theme_night: ai_safety_modern
+  font: modern_typography
+  font_size: l
 
 # SEO
 
