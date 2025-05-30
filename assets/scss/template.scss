@@ -139,12 +139,52 @@
 
 /* Hero Section Enhancements */
 .hero-title {
-  background: linear-gradient(135deg, #1e293b 0%, #2563eb 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
   font-weight: 700;
   line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Background Image Styling */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section .hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.hero-section:hover .hero-bg-image {
+  opacity: 0.4;
+}
+
+/* Ensure hero text is above background */
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Add overlay for better text readability - optimized for sunset cityscape */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, 
+    rgba(15, 23, 42, 0.7) 0%,      /* Dark blue-black at top */
+    rgba(30, 41, 59, 0.6) 50%,     /* Medium overlay in middle */
+    rgba(0, 0, 0, 0.4) 100%        /* Lighter toward bottom/sunset */
+  );
+  z-index: 1;
 }
 
 /* Section Spacing and Background */
@@ -154,12 +194,71 @@
   overflow: hidden;
 }
 
+/* Ensure proper section backgrounds in light mode */
 .home-section:nth-child(even) {
-  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  background: #ffffff !important;
 }
 
 .home-section:nth-child(odd) {
-  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+  background: #f8fafc !important;
+}
+
+/* Dark mode section backgrounds */
+[data-theme="dark"] .home-section:nth-child(even) {
+  background: #111827 !important;
+}
+
+[data-theme="dark"] .home-section:nth-child(odd) {
+  background: #1e293b !important;
+}
+
+/* H3 Styling and Link Block Enhancement */
+h3 {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme="dark"] h3 {
+  color: #60a5fa;
+  border-bottom-color: #374151;
+}
+
+/* Link blocks with visual separation */
+.home-section p {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.home-section p:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+[data-theme="dark"] .home-section p {
+  border-bottom-color: #374151;
+}
+
+/* Improve link block cohesion */
+.home-section p strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.home-section p strong a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.home-section p strong a:hover {
+  text-decoration: underline;
+  transform: translateY(-1px);
 }
 
 /* Add subtle background patterns */

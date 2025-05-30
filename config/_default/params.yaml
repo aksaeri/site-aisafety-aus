@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Alexander Saeri. Affiliated with [The Good Ancestors Project](https://goodancestors.org.au). This work is licensed under {license}'
+    notice: '© {year} Alexander Saeri. Affiliated with [The Good Ancestors Project](https://goodancestors.org.au). Hero photo by [Gilly Tanabose](https://unsplash.com/@glt23) on [Unsplash](https://unsplash.com). This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: true

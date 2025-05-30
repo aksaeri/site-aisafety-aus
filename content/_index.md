@@ -6,18 +6,23 @@ type: landing
 
 sections:
   # Hero Section
-  - block: markdown
+  - block: hero
     content:
       title: |-
         AI is defining our future. 
         Let's get it right.
       text: |-
         The most advanced AI systems are being developed rapidly, creating both unprecedented opportunities and catastrophic risks. Australia has a crucial role to play in ensuring AI benefits humanity.
+      image:
+        filename: gilly-tanabose-pdi2gYf9ysM-unsplash.jpg
+        filters:
+          brightness: 0.6
     design:
-      columns: '1'
       background:
-        gradient_start: '#2563eb'
-        gradient_end: '#1e40af'
+        image: 
+          filename: gilly-tanabose-pdi2gYf9ysM-unsplash.jpg
+          filters:
+            brightness: 0.6
         text_color_light: true
 
   # 1. Learn about AI Safety
