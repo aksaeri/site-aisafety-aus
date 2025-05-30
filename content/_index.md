@@ -71,8 +71,6 @@ sections:
 
     design:
       columns: '2'
-      background:
-        color: '#f8fafc'
 
   # 2. Australian Organisations and Groups  
   - block: markdown
@@ -127,7 +125,5 @@ sections:
 
     design:
       columns: '2'
-      background:
-        color: '#f1f5f9'
 
 ---
