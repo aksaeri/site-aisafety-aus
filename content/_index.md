@@ -13,10 +13,6 @@ sections:
         Let's get it right.
       text: |-
         The most advanced AI systems are being developed rapidly, creating both unprecedented opportunities and catastrophic risks. Australia has a crucial role to play in ensuring AI benefits humanity.
-      image:
-        filename: gilly-tanabose-pdi2gYf9ysM-unsplash.jpg
-        filters:
-          brightness: 0.6
     design:
       background:
         image: 
