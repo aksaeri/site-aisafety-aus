@@ -9,9 +9,10 @@ sections:
   - block: markdown
     content:
       title: |-
-        AI is defining our future. Let's get it right.
+        AI is defining our future. 
+        Let's get it right.
       text: |-
-        The most advanced AI systems are being developed rapidly, creating both unprecedented opportunities and existential risks. Australia has a crucial role to play in ensuring AI benefits humanity.
+        The most advanced AI systems are being developed rapidly, creating both unprecedented opportunities and catastrophic risks. Australia has a crucial role to play in ensuring AI benefits humanity.
     design:
       columns: '1'
       background:
@@ -31,25 +32,32 @@ sections:
 
         ### Learning Resources
 
-        **[Future of AI Course](https://bluedot.org/courses/future-of-ai)**
+        **[Geoffrey Hinton Interview](https://www.youtube.com/watch?v=qrvK_KuIeJk)**
         
-        BlueDot's accessible 2-hour introduction requiring no technical background. A perfect starting point for understanding AI developments and their implications.
+        Nobel laureate and "Godfather of AI" Geoffrey Hinton explains AI risks in this 60 Minutes television interview, including warnings about loss of human control (15 mins). Geoffrey Hinton has researched AI for decades, and left Google Brain in 2023 to be able to speak about AI risks more freely.
+
+        **[Yoshua Bengio TED talk](https://www.youtube.com/watch?v=qe9QSCF-d88)**
+
+        Nobel laureate Yoshua Bengio presents the case for taking catastrophic risks from AI seriously in this TED talk (15 mins).
 
         **[80,000 Hours AI Safety Guide](https://80000hours.org/problem-profiles/artificial-intelligence/)**
         
-        Comprehensive problem profile explaining why preventing AI catastrophe is crucial, covering technical safety issues, existential risks, and career paths in the field.
+        Career advice website 80,000 Hours has a guide explaining why preventing AI catastrophe is crucial, introduces technical safety issues, risks, and career paths in the field (~30 mins).
 
-        **[AI Safety Textbook](https://www.aisafetybook.com/)**
+        **[Future of AI Course](https://bluedot.org/courses/future-of-ai)**
         
-        "Introduction to AI Safety, Ethics and Society" by Dan Hendrycks. A comprehensive textbook available online for free, also available as audiobook on Spotify.
+        Global challenges education non-profit BlueDot Impact has an accessible introduction to the rapid increase in AI capabilities and associated challenges (2 hours). A good starting point to get oriented in AI developments and their implications. BlueDot also offers more in-depth courses in [technical AI Safety](https://bluedot.org/courses/alignment), [AI governance](https://bluedot.org/courses/governance), and [economics of AI](https://bluedot.org/courses/economics-of-tai).
 
-        **[Geoffrey Hinton Interview](https://www.cbsnews.com/news/geoffrey-hinton-ai-dangers-60-minutes-transcript/)**
-        
-        Nobel laureate and "Godfather of AI" explains risks in accessible terms, including warnings about loss of human control (60 Minutes, 2024).
+        ### Go deeper
 
         **[International AI Safety Report 2025](https://www.gov.uk/government/publications/international-ai-safety-report-2025)**
         
-        Global synthesis from 100 experts across 30 countries on AI capabilities, risks, and safety measures. Comprehensive but lengthy.
+        Global synthesis from 100 experts across 30 countries on AI capabilities, risks, and technical safety measures as of early 2025.
+
+        **[AI Safety Textbook](https://www.aisafetybook.com/)**
+        
+        "Introduction to AI Safety, Ethics and Society" by Dan Hendrycks. A comprehensive free online textbook, also available as audiobook.
+
 
         ### Australian Policy Resources
 
@@ -61,10 +69,6 @@ sections:
         
         Government proposals for mandatory AI safety requirements in high-risk settings, outlining regulatory approaches and implementation options.
         
-        **[Australians for AI Safety](https://www.australiansforaisafety.com.au/)**
-        
-        Expert open letter with policy recommendations for Australian government action on AI risks and safety measures.
-
         **[Good Ancestors Policy Submission](https://www.goodancestors.org.au/s/Publications-2023-DISR-submission-safe-and-responsible-AI.pdf)**
         
         Detailed policy submission on mandatory guardrails, providing comprehensive recommendations for Australian AI governance frameworks.
@@ -81,11 +85,11 @@ sections:
         Connect with the growing AI safety community across Australia. From research institutes to advocacy groups, there are many ways to get involved.
 
 
-        **[AI Safety Australia & New Zealand](https://www.facebook.com/groups/1099249420923957/)**
+        **[AI Safety Australia & New Zealand](https://aisafetyanz.com.au)**
         
         Community for people in Australia or New Zealand interested in preventing existential risk from AI. Organizes regular online events and maintains active discussions on current developments.
         
-        [Join the mailing list](https://aisafetysupport.us14.list-manage.com/subscribe?u=d1f02c8a936106ad288cdf2ec&id=2e002b7472) | [Facebook group](https://www.facebook.com/groups/1099249420923957/)
+        [Join the mailing list](https://aisafetysupport.us14.list-manage.com/subscribe?u=d1f02c8a936106ad288cdf2ec&id=2e002b7472)
 
         **[Australians for AI Safety](https://www.australiansforaisafety.com.au/)**
         
@@ -106,24 +110,24 @@ sections:
     design:
       columns: '2'
 
-  # 3. Global Network
-  - block: markdown  
-    id: global
-    content:
-      title: Global Network
-      text: |-
-        Australia is part of a worldwide movement working on AI safety. Connect with leading international organizations driving research and policy development.
+  # # 3. Global Network
+  # - block: markdown  
+  #   id: global
+  #   content:
+  #     title: Global Network
+  #     text: |-
+  #       Australia is part of a worldwide movement working on AI safety. Connect with leading international organizations driving research and policy development.
 
 
-        **[Centre for AI Safety](https://www.safe.ai/)**
+  #       **[Centre for AI Safety](https://www.safe.ai/)**
         
-        Leading international organization focused on reducing societal-scale risks from AI. They conduct research, publish policy recommendations, and coordinate global AI safety efforts.
+  #       Leading international organization focused on reducing societal-scale risks from AI. They conduct research, publish policy recommendations, and coordinate global AI safety efforts.
 
-        **[Centre for the Governance of AI](https://www.governance.ai/)**
+  #       **[Centre for the Governance of AI](https://www.governance.ai/)**
         
-        Research organization providing frameworks for understanding and managing AI risks. They publish reports on public attitudes, policy options, and governance mechanisms for advanced AI systems.
+  #       Research organization providing frameworks for understanding and managing AI risks. They publish reports on public attitudes, policy options, and governance mechanisms for advanced AI systems.
 
-    design:
-      columns: '2'
+  #   design:
+  #     columns: '2'
 
 ---
