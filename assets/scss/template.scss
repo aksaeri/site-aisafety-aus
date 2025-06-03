@@ -196,15 +196,24 @@
 
 /* Ensure proper section backgrounds in light mode */
 .home-section:nth-child(even) {
-  background: #ffffff !important;
+  background: #ffffff;
 }
 
 .home-section:nth-child(odd) {
-  background: #f8fafc !important;
+  background: #f8fafc;
 }
 
 /* Dark mode section backgrounds */
 [data-theme="dark"] .home-section:nth-child(even) {
+  background: #111827 !important;
+}
+
+[data-theme="dark"] .home-section:nth-child(odd) {
+  background: #1e293b !important;
+}
+
+/* Override any Wowchemy default backgrounds in dark mode */
+[data-theme="dark"] .home-section {
   background: #111827 !important;
 }
 
@@ -371,19 +380,44 @@ html {
 
 /* Dark Mode Enhancements */
 [data-theme="dark"] .navbar {
-  background: rgba(30, 41, 59, 0.9) !important;
+  background: rgba(30, 41, 59, 0.95) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .navbar-nav .navbar-nav {
+  background: rgba(30, 41, 59, 0.95) !important;
+}
+
+[data-theme="dark"] .navbar-collapse {
+  background: rgba(30, 41, 59, 0.95) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 [data-theme="dark"] .card {
   background: linear-gradient(135deg, #334155 0%, #1e293b 100%);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #f1f5f9;
 }
 
-[data-theme="dark"] .home-section:nth-child(even) {
-  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+/* Dark mode text colors */
+[data-theme="dark"] {
+  color: #f1f5f9;
 }
 
-[data-theme="dark"] .home-section:nth-child(odd) {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+[data-theme="dark"] .home-section {
+  color: #f1f5f9;
 }
+
+[data-theme="dark"] p {
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .navbar-brand,
+[data-theme="dark"] .navbar-nav .nav-link {
+  color: #f1f5f9 !important;
+}
+
+[data-theme="dark"] .navbar-nav .nav-link:hover {
+  color: #60a5fa !important;
+}
+
