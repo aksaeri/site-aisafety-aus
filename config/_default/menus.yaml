@@ -4,12 +4,12 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Projects
-    url: #projects
-    weight: 10
-  - name: Contact
-    url: #contact
-    weight: 60
+# - name: Projects
+#    url: #projects
+#    weight: 10
+#  - name: Contact
+#    url: #contact
+#    weight: 60
 #  - name: Register for the AI Safety Unconference
 #    url: 'https://events.humanitix.com/ai-safety-unconference-australia-2023'
 #    weight: 90
