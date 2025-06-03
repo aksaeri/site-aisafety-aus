@@ -379,7 +379,9 @@ html {
 }
 
 /* Dark Mode Enhancements */
-[data-theme="dark"] .navbar {
+[data-theme="dark"] .navbar,
+[data-theme="dark"] .navbar-light,
+[data-theme="dark"] nav.navbar {
   background: rgba(30, 41, 59, 0.95) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -419,5 +421,30 @@ html {
 
 [data-theme="dark"] .navbar-nav .nav-link:hover {
   color: #60a5fa !important;
+}
+
+/* Comprehensive section background fixes for remaining light sections */
+[data-theme="dark"] section,
+[data-theme="dark"] .section {
+  background: #111827 !important;
+}
+
+[data-theme="dark"] section:nth-child(even),
+[data-theme="dark"] .section:nth-child(even) {
+  background: #111827 !important;
+}
+
+[data-theme="dark"] section:nth-child(odd),
+[data-theme="dark"] .section:nth-child(odd) {
+  background: #1e293b !important;
+}
+
+/* Override any remaining light backgrounds */
+[data-theme="dark"] .bg-light {
+  background: #1e293b !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background: #111827 !important;
 }
 
