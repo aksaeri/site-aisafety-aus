@@ -194,32 +194,7 @@
   overflow: hidden;
 }
 
-/* Ensure proper section backgrounds in light mode */
-.home-section:nth-child(even) {
-  background: #ffffff;
-}
-
-.home-section:nth-child(odd) {
-  background: #f8fafc;
-}
-
-/* Dark mode section backgrounds */
-[data-theme="dark"] .home-section:nth-child(even) {
-  background: #111827 !important;
-}
-
-[data-theme="dark"] .home-section:nth-child(odd) {
-  background: #1e293b !important;
-}
-
-/* Override any Wowchemy default backgrounds in dark mode */
-[data-theme="dark"] .home-section {
-  background: #111827 !important;
-}
-
-[data-theme="dark"] .home-section:nth-child(odd) {
-  background: #1e293b !important;
-}
+/* Let theme TOML handle section backgrounds - removed conflicting CSS */
 
 /* H3 Styling and Link Block Enhancement */
 h3 {
@@ -423,23 +398,7 @@ html {
   color: #60a5fa !important;
 }
 
-/* Comprehensive section background fixes for remaining light sections */
-[data-theme="dark"] section,
-[data-theme="dark"] .section {
-  background: #111827 !important;
-}
-
-[data-theme="dark"] section:nth-child(even),
-[data-theme="dark"] .section:nth-child(even) {
-  background: #111827 !important;
-}
-
-[data-theme="dark"] section:nth-child(odd),
-[data-theme="dark"] .section:nth-child(odd) {
-  background: #1e293b !important;
-}
-
-/* Override any remaining light backgrounds */
+/* Override any remaining light backgrounds that aren't home sections */
 [data-theme="dark"] .bg-light {
   background: #1e293b !important;
 }
