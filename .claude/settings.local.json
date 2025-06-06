@@ -3,7 +3,11 @@
     "allow": [
       "WebFetch(domain:bootstrap.hugoblox.com)",
       "WebFetch(domain:docs.hugoblox.com)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:bluedot.org)"
     ],
     "deny": []
   }

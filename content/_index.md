@@ -60,8 +60,10 @@ sections:
         </div>
 
         <div class="learning-resource-card">
-        <div class="resource-header">
+        <div class="resource-logo-container">
         <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/80%2C000_Hours_logo.svg" alt="80,000 Hours logo" class="resource-logo">
+        </div>
+        <div class="resource-header">
         <h4><a href="https://80000hours.org/problem-profiles/artificial-intelligence/" target="_blank">80,000 Hours AI Safety Guide</a></h4>
         </div>
         
@@ -69,8 +71,10 @@ sections:
         </div>
 
         <div class="learning-resource-card">
-        <div class="resource-header">
+        <div class="resource-logo-container">
         <img src="https://bluedot.org/images/logo/BlueDot_Impact_Logo.svg" alt="BlueDot Impact logo" class="resource-logo">
+        </div>
+        <div class="resource-header">
         <h4><a href="https://bluedot.org/courses/future-of-ai" target="_blank">Future of AI Course</a></h4>
         </div>
         
@@ -138,8 +142,10 @@ sections:
         Connect with the growing AI safety community across Australia. From research institutes to advocacy groups, there are many ways to get involved.
 
         <div class="learning-resource-card">
+        <div class="resource-logo-container">
+        <img src="/media/logos/AISafety_ANZ_logo.png" alt="AI Safety ANZ logo" class="resource-logo">
+        </div>
         <div class="resource-header">
-        <i class="fas fa-users text-primary"></i>
         <h4><a href="https://aisafetyanz.com.au" target="_blank">AI Safety Australia & New Zealand</a></h4>
         </div>
         
@@ -149,8 +155,10 @@ sections:
         </div>
 
         <div class="learning-resource-card">
+        <div class="resource-logo-container">
+        <img src="/media/logos/australians_ai_safety_logo.webp" alt="Australians for AI Safety logo" class="resource-logo">
+        </div>
         <div class="resource-header">
-        <i class="fas fa-megaphone text-warning"></i>
         <h4><a href="https://www.australiansforaisafety.com.au/" target="_blank">Australians for AI Safety</a></h4>
         </div>
         
@@ -158,8 +166,10 @@ sections:
         </div>
 
         <div class="learning-resource-card">
+        <div class="resource-logo-container">
+        <img src="/media/logos/Good_Ancestors_Logo.svg" alt="Good Ancestors Project logo" class="resource-logo">
+        </div>
         <div class="resource-header">
-        <i class="fas fa-tree text-success"></i>
         <h4><a href="https://www.goodancestors.org.au/" target="_blank">Good Ancestors Project</a></h4>
         </div>
         
@@ -167,8 +177,10 @@ sections:
         </div>
 
         <div class="learning-resource-card">
-        <div class="resource-header">
+        <div class="resource-logo-container">
         <img src="https://www.gradientinstitute.org/assets/gradient-large.svg" alt="Gradient Institute logo" class="resource-logo">
+        </div>
+        <div class="resource-header">
         <h4><a href="https://www.gradientinstitute.org/" target="_blank">Gradient Institute</a></h4>
         </div>
         
@@ -176,8 +188,10 @@ sections:
         </div>
 
         <div class="learning-resource-card">
+        <div class="resource-logo-container">
+        <img src="/media/logos/CSIRO_Logo.svg" alt="CSIRO logo" class="resource-logo">
+        </div>
         <div class="resource-header">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/CSIRO_Logo.svg" alt="CSIRO logo" class="resource-logo">
         <h4><a href="https://research.csiro.au/ss/team/se4ai/responsible-ai-engineering/" target="_blank">CSIRO Responsible AI Engineering</a></h4>
         </div>
         

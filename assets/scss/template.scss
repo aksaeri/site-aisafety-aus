@@ -332,17 +332,47 @@ p {
   flex-shrink: 0;
 }
 
-/* Resource logo styling */
+/* Resource logo container - above content */
+.resource-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+/* Resource logo styling - flexible for mixed shapes */
 .resource-logo {
-  width: 32px;
-  height: 32px;
+  max-width: 120px;
+  max-height: 40px;
+  width: auto;
+  height: auto;
   object-fit: contain;
-  flex-shrink: 0;
   filter: brightness(1);
-  transition: filter 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .resource-logo-container {
+    height: 50px;
+    padding: 0.5rem;
+  }
+  
+  .resource-logo {
+    max-width: 100px;
+    max-height: 32px;
+  }
 }
 
 /* Dark mode logo adjustments */
+[data-theme="dark"] .resource-logo-container {
+  background: rgba(0, 0, 0, 0.3);
+}
+
 [data-theme="dark"] .resource-logo {
   filter: brightness(1.2) contrast(0.9);
 }
