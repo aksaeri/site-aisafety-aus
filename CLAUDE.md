@@ -157,3 +157,31 @@ hugo --gc --minify -b $URL
   background: rgba(30, 41, 59, 0.95) !important;
 }
 ```
+
+## Hugo Asset Management & Content Enhancement
+
+**Asset Handling:**
+- Local images/logos stored in `assets/media/logos/`
+- Use Hugo `{{< figure src="logos/filename.ext" >}}` shortcode for proper asset handling
+- Hugo processes and optimizes assets automatically during build
+- Direct `/media/` paths don't work - must use Hugo's asset pipeline
+
+**YouTube Embeds:**
+- Hugo shortcodes `{{< youtube VIDEO_ID >}}` may not work if modules not properly configured
+- Use standard HTML iframe embeds as reliable fallback:
+  ```html
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Title" frameborder="0" allowfullscreen></iframe>
+  ```
+
+**Visual Content Strategy:**
+- Mixed logo aspect ratios (square vs rectangular) handled with flexible CSS containers
+- Logo sizing: 160x60px desktop, 140x50px mobile for optimal readability
+- Resource cards with logo-above-content layout works best for mobile + mixed shapes
+- Use `object-fit: contain` for logos to preserve aspect ratios
+- Subtle background containers (`rgba(255, 255, 255, 0.7)`) help logos stand out
+
+**Content Organization Approach:**
+- Single-page design with progressive learning resources (Quick Start → Go Deeper → Comprehensive)
+- Visual hierarchy through cards, logos, and clear CTAs
+- Organization branding prominently displayed to build trust and recognition
+- Embedded videos for higher engagement vs external links
