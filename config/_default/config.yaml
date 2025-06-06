@@ -3,7 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: AI Safety in Australia # Website name
+title: 'AI Safety in Australia'
+ # Website name
 baseURL: 'https://www.aisafety.org.au/' # Website URL
 
 ############################
@@ -70,3 +71,6 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+params:
+  topic: "safety"

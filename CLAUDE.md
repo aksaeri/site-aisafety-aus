@@ -88,3 +88,17 @@ hugo --gc --minify -b $URL
 - Progressive learning resources (Quick Start → Go Deeper → Comprehensive)
 - Focus on Australian AI safety community and resources
 - Minimal contact friction (contact info in footer, not main content)
+
+## Dark Mode Implementation
+
+**CSS Specificity Notes:**
+- Wowchemy theme defaults require `!important` declarations to override
+- Dark mode section backgrounds use alternating colors: `#111827` (even) and `#1e293b` (odd)
+- Comprehensive CSS targeting needed for: `.navbar`, `.navbar-light`, `nav.navbar`, `section`, `.section`, `.bg-light`, `.bg-white`
+- Text colors in dark mode: `#f1f5f9` (primary), `#e2e8f0` (paragraph), `#60a5fa` (links)
+
+**Common Issues:**
+- Duplicate CSS rules can override dark mode - check for conflicting selectors
+- Navbar often needs multiple class targets due to Wowchemy's dynamic classes
+- Section backgrounds may need both `section` and `.section` targeting
+- Always test both light and dark themes after CSS changes

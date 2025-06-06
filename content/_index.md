@@ -18,7 +18,7 @@ sections:
         image: 
           filename: gilly-tanabose-pdi2gYf9ysM-unsplash.jpg
           filters:
-            brightness: 0.6
+            brightness: 0.3
         text_color_light: true
 
   # 1. Learn about AI Safety
