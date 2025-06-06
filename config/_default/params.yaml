@@ -90,7 +90,7 @@ features:
       repo_id: ''
       category: ''
       category_id: ''
- search:
+  search:
    provider: wowchemy
    algolia:
      app_id: ''
