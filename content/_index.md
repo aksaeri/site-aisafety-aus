@@ -143,7 +143,7 @@ sections:
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
-        <img src="/media/logos/AISafety_ANZ_logo.png" alt="AI Safety ANZ logo" class="resource-logo">
+        {{< figure src="logos/AISafety_ANZ_logo.png" alt="AI Safety ANZ logo" class="resource-logo" >}}
         </div>
         <div class="resource-header">
         <h4><a href="https://aisafetyanz.com.au" target="_blank">AI Safety Australia & New Zealand</a></h4>
@@ -156,7 +156,7 @@ sections:
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
-        <img src="/media/logos/australians_ai_safety_logo.webp" alt="Australians for AI Safety logo" class="resource-logo">
+        {{< figure src="logos/australians_ai_safety_logo.webp" alt="Australians for AI Safety logo" class="resource-logo" >}}
         </div>
         <div class="resource-header">
         <h4><a href="https://www.australiansforaisafety.com.au/" target="_blank">Australians for AI Safety</a></h4>
@@ -167,7 +167,7 @@ sections:
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
-        <img src="/media/logos/Good_Ancestors_Logo.svg" alt="Good Ancestors Project logo" class="resource-logo">
+        {{< figure src="logos/Good_Ancestors_Logo.svg" alt="Good Ancestors Project logo" class="resource-logo" >}}
         </div>
         <div class="resource-header">
         <h4><a href="https://www.goodancestors.org.au/" target="_blank">Good Ancestors Project</a></h4>
@@ -189,7 +189,7 @@ sections:
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
-        <img src="/media/logos/CSIRO_Logo.svg" alt="CSIRO logo" class="resource-logo">
+        {{< figure src="logos/CSIRO_Logo.svg" alt="CSIRO logo" class="resource-logo" >}}
         </div>
         <div class="resource-header">
         <h4><a href="https://research.csiro.au/ss/team/se4ai/responsible-ai-engineering/" target="_blank">CSIRO Responsible AI Engineering</a></h4>
