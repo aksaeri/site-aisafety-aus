@@ -33,46 +33,76 @@ sections:
 
         ### Learning Resources
 
+        <div class="learning-resource-card">
+        <i class="fab fa-youtube text-danger"></i>
         **[Geoffrey Hinton Interview](https://www.youtube.com/watch?v=qrvK_KuIeJk)**
         
         Nobel laureate and "Godfather of AI" Geoffrey Hinton explains AI risks in this 60 Minutes television interview, including warnings about loss of human control (15 mins). Geoffrey Hinton has researched AI for decades, and left Google Brain in 2023 to be able to speak about AI risks more freely.
+        
+        {{< youtube qrvK_KuIeJk >}}
+        </div>
 
+        <div class="learning-resource-card">
+        <i class="fab fa-youtube text-danger"></i>
         **[Yoshua Bengio TED talk](https://www.youtube.com/watch?v=qe9QSCF-d88)**
 
         Nobel laureate Yoshua Bengio presents the case for taking catastrophic risks from AI seriously in this TED talk (15 mins).
+        
+        {{< youtube qe9QSCF-d88 >}}
+        </div>
 
+        <div class="learning-resource-card">
+        <i class="fas fa-graduation-cap text-primary"></i>
         **[80,000 Hours AI Safety Guide](https://80000hours.org/problem-profiles/artificial-intelligence/)**
         
         Career advice website 80,000 Hours has a guide explaining why preventing AI catastrophe is crucial, introduces technical safety issues, risks, and career paths in the field (~30 mins).
+        </div>
 
+        <div class="learning-resource-card">
+        <i class="fas fa-chalkboard-teacher text-info"></i>
         **[Future of AI Course](https://bluedot.org/courses/future-of-ai)**
         
         Global challenges education non-profit BlueDot Impact has an accessible introduction to the rapid increase in AI capabilities and associated challenges (2 hours). A good starting point to get oriented in AI developments and their implications. BlueDot also offers more in-depth courses in [technical AI Safety](https://bluedot.org/courses/alignment), [AI governance](https://bluedot.org/courses/governance), and [economics of AI](https://bluedot.org/courses/economics-of-tai).
+        </div>
 
         ### Go deeper
 
+        <div class="learning-resource-card">
+        <i class="fas fa-file-alt text-success"></i>
         **[International AI Safety Report 2025](https://www.gov.uk/government/publications/international-ai-safety-report-2025)**
         
         Global synthesis from 100 experts across 30 countries on AI capabilities, risks, and technical safety measures as of early 2025.
+        </div>
 
+        <div class="learning-resource-card">
+        <i class="fas fa-book text-warning"></i>
         **[AI Safety Textbook](https://www.aisafetybook.com/)**
         
         "Introduction to AI Safety, Ethics and Society" by Dan Hendrycks. A comprehensive free online textbook, also available as audiobook.
-
+        </div>
 
         ### Australian Policy Resources
 
+        <div class="learning-resource-card">
+        <i class="fas fa-shield-alt text-primary"></i>
         **[Voluntary AI Safety Standard](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)**
         
         Official Australian government guidance providing 10 practical guardrails for organizations using AI, focusing on transparency, accountability, and risk management.
+        </div>
 
+        <div class="learning-resource-card">
+        <i class="fas fa-balance-scale text-secondary"></i>
         **[Mandatory Guardrails Discussion Paper](https://consult.industry.gov.au/ai-mandatory-guardrails)**
         
         Government proposals for mandatory AI safety requirements in high-risk settings, outlining regulatory approaches and implementation options.
+        </div>
         
+        <div class="learning-resource-card">
+        <i class="fas fa-users text-info"></i>
         **[Good Ancestors Policy Submission](https://www.goodancestors.org.au/s/Publications-2023-DISR-submission-safe-and-responsible-AI.pdf)**
         
         Detailed policy submission on mandatory guardrails, providing comprehensive recommendations for Australian AI governance frameworks.
+        </div>
 
     design:
       columns: '2'
