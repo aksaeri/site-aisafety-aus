@@ -146,10 +146,15 @@
 
 /* Hero Background Image Styling */
 .hero-section {
+  aspect-ratio: 16/9; /* or try 21/9 for more cinematic */
+  min-height: 60vh;
+  max-height: 80vh; /* prevent it from getting too tall */
+  
+  /* Add these to prevent layout shifts */
   position: relative;
   overflow: hidden;
-  aspect-ratio: 16/9; /* or whatever ratio works best */
-  min-height: 60vh;
+  display: flex;
+  align-items: center; /* Center content vertically */
 }
 
 .hero-section .hero-bg-image {
