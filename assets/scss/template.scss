@@ -144,36 +144,37 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Hero Background Image Styling */
-.hero-section {
-  aspect-ratio: 16/9; /* or try 21/9 for more cinematic */
+/* Hero Background Image Styling - Fixed to target actual Wowchemy classes */
+.wg-hero {
   min-height: 60vh;
-  max-height: 80vh; /* prevent it from getting too tall */
-  
-  /* Add these to prevent layout shifts */
+  max-height: 80vh;
   position: relative;
   overflow: hidden;
   display: flex;
-  align-items: center; /* Center content vertically */
+  align-items: center;
 }
 
-.hero-section .hero-bg-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.6;
-  transition: opacity 0.3s ease;
+/* Target the actual background div that Wowchemy generates */
+.home-section-bg.bg-image {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
 }
 
-.hero-section:hover .hero-bg-image {
-  opacity: 0.4;
+/* On desktop, adjust background position to show more of the image */
+@media (min-width: 768px) {
+  .home-section-bg.bg-image {
+    background-position: center 30% !important; /* Show more of the middle/bottom of image */
+  }
 }
 
 /* Ensure hero text is above background */
-.hero-section .container {
+.wg-hero .container {
   position: relative;
   z-index: 2;
   padding-top: 3rem;
@@ -181,7 +182,7 @@
 }
 
 /* Add overlay for better text readability - optimized for sunset cityscape */
-.hero-section::before {
+.wg-hero::before {
   content: '';
   position: absolute;
   top: 0;
@@ -189,9 +190,9 @@
   right: 0;
   bottom: 0;
   background: linear-gradient(135deg, 
-    rgba(15, 23, 42, 0.7) 0%,      /* Dark blue-black at top */
-    rgba(30, 41, 59, 0.6) 50%,     /* Medium overlay in middle */
-    rgba(0, 0, 0, 0.4) 100%        /* Lighter toward bottom/sunset */
+    rgba(15, 23, 42, 0.3) 0%,      /* Lighter overlay to show more image */
+    rgba(30, 41, 59, 0.2) 50%,     /* Very light in middle */
+    rgba(0, 0, 0, 0.3) 100%        /* Light toward bottom */
   );
   z-index: 1;
 }
