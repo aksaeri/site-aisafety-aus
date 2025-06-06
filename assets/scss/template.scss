@@ -339,7 +339,7 @@ p {
   align-items: center;
   height: 60px;
   margin-bottom: 1rem;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 8px;
   padding: 0.75rem;
 }
@@ -370,7 +370,7 @@ p {
 
 /* Dark mode logo adjustments */
 [data-theme="dark"] .resource-logo-container {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 [data-theme="dark"] .resource-logo {
@@ -428,8 +428,8 @@ p {
 
 /* Dark mode for learning cards */
 [data-theme="dark"] .learning-resource-card {
-  background: linear-gradient(135deg, #334155 0%, #1e293b 100%);
-  border-color: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(135deg, #1e293b 0%, #111827 100%);
+  border-color: rgba(255, 255, 255, 0.2);
   color: #f1f5f9;
 }
 
