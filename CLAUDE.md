@@ -102,3 +102,58 @@ hugo --gc --minify -b $URL
 - Navbar often needs multiple class targets due to Wowchemy's dynamic classes
 - Section backgrounds may need both `section` and `.section` targeting
 - Always test both light and dark themes after CSS changes
+
+## CSS Debugging and Targeting Guide
+
+**Problem:** Custom CSS in `assets/scss/template.scss` may not work because it targets wrong classes or has insufficient specificity to override Wowchemy's styles.
+
+**Wowchemy CSS Architecture:**
+- Remote CSS compiled into `/public/css/wowchemy.css` (generated, not in repo)
+- Uses Hugo modules from `github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5`
+- Often requires `!important` declarations to override theme defaults
+- Inline styles in HTML may need `!important` to override
+
+**How to Debug CSS Issues:**
+
+1. **Inspect Live Site HTML Structure:**
+   ```bash
+   curl -s "https://aisafety.org.au" | grep -A20 -B5 "section-hero\|wg-hero"
+   ```
+
+2. **Find Actual CSS Classes Used:**
+   - Look at live site HTML, not your templates
+   - Wowchemy generates classes like `.wg-hero`, `.home-section-bg`, `.bg-image`
+   - Your block type `hero` becomes class `.wg-hero` in HTML
+
+3. **Check Compiled CSS:**
+   ```bash
+   grep -n "\.wg-hero\|\.home-section" /public/css/wowchemy.css
+   ```
+
+4. **Override Strategy:**
+   - Use exact classes from live HTML: `.wg-hero`, `.home-section-bg.bg-image`
+   - Add `!important` for properties that don't override
+   - Target combined classes for higher specificity
+   - Use media queries to target specific screen sizes
+
+**Key Wowchemy CSS Classes:**
+- `.wg-hero` - Hero section container
+- `.home-section-bg.bg-image` - Background image container  
+- `.hero-title` - Hero heading
+- `.hero-lead` - Hero subtitle
+- `.navbar`, `.navbar-light` - Navigation
+- `.home-section` - Content sections
+- `[data-theme="dark"]` - Dark mode targeting
+
+**CSS Override Examples:**
+```scss
+/* Hero background positioning */
+.home-section-bg.bg-image {
+  background-position: center 30% !important;
+}
+
+/* Dark mode navbar */
+[data-theme="dark"] .navbar {
+  background: rgba(30, 41, 59, 0.95) !important;
+}
+```
