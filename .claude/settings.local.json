@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:bootstrap.hugoblox.com)"
+      "WebFetch(domain:bootstrap.hugoblox.com)",
+      "WebFetch(domain:docs.hugoblox.com)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": []
   }
