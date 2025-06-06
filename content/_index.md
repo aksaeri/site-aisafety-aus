@@ -42,7 +42,7 @@ sections:
         Nobel laureate and "Godfather of AI" Geoffrey Hinton explains AI risks in this 60 Minutes television interview, including warnings about loss of human control (15 mins). Geoffrey Hinton has researched AI for decades, and left Google Brain in 2023 to be able to speak about AI risks more freely.
         
         <div class="video-embed">
-        {{< youtube qrvK_KuIeJk >}}
+        <iframe src="https://www.youtube.com/embed/qrvK_KuIeJk" title="Geoffrey Hinton Interview - 60 Minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </div>
 
@@ -55,13 +55,13 @@ sections:
         Nobel laureate Yoshua Bengio presents the case for taking catastrophic risks from AI seriously in this TED talk (15 mins).
         
         <div class="video-embed">
-        {{< youtube qe9QSCF-d88 >}}
+        <iframe src="https://www.youtube.com/embed/qe9QSCF-d88" title="Yoshua Bengio TED Talk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </div>
 
         <div class="learning-resource-card">
         <div class="resource-header">
-        <i class="fas fa-graduation-cap text-primary"></i>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/80%2C000_Hours_logo.svg" alt="80,000 Hours logo" class="resource-logo">
         <h4><a href="https://80000hours.org/problem-profiles/artificial-intelligence/" target="_blank">80,000 Hours AI Safety Guide</a></h4>
         </div>
         
@@ -70,7 +70,7 @@ sections:
 
         <div class="learning-resource-card">
         <div class="resource-header">
-        <i class="fas fa-chalkboard-teacher text-info"></i>
+        <img src="https://bluedot.org/images/logo/BlueDot_Impact_Logo.svg" alt="BlueDot Impact logo" class="resource-logo">
         <h4><a href="https://bluedot.org/courses/future-of-ai" target="_blank">Future of AI Course</a></h4>
         </div>
         
@@ -137,28 +137,52 @@ sections:
       text: |-
         Connect with the growing AI safety community across Australia. From research institutes to advocacy groups, there are many ways to get involved.
 
-
-        **[AI Safety Australia & New Zealand](https://aisafetyanz.com.au)**
+        <div class="learning-resource-card">
+        <div class="resource-header">
+        <i class="fas fa-users text-primary"></i>
+        <h4><a href="https://aisafetyanz.com.au" target="_blank">AI Safety Australia & New Zealand</a></h4>
+        </div>
         
         Community for people in Australia or New Zealand interested in preventing existential risk from AI. Organizes regular online events and maintains active discussions on current developments.
         
-        [Join the mailing list](https://aisafetysupport.us14.list-manage.com/subscribe?u=d1f02c8a936106ad288cdf2ec&id=2e002b7472)
+        <a href="https://aisafetysupport.us14.list-manage.com/subscribe?u=d1f02c8a936106ad288cdf2ec&id=2e002b7472" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Join the mailing list</a>
+        </div>
 
-        **[Australians for AI Safety](https://www.australiansforaisafety.com.au/)**
+        <div class="learning-resource-card">
+        <div class="resource-header">
+        <i class="fas fa-megaphone text-warning"></i>
+        <h4><a href="https://www.australiansforaisafety.com.au/" target="_blank">Australians for AI Safety</a></h4>
+        </div>
         
         Group of experts publicly advocating for government action on AI risks. They publish open letters and policy recommendations for Australian policymakers and government agencies.
+        </div>
 
-        **[Good Ancestors Project](https://www.goodancestors.org.au/)**
+        <div class="learning-resource-card">
+        <div class="resource-header">
+        <i class="fas fa-tree text-success"></i>
+        <h4><a href="https://www.goodancestors.org.au/" target="_blank">Good Ancestors Project</a></h4>
+        </div>
         
         Policy organization developing and advocating for solutions to this century's most challenging problems, including AI governance, biosecurity, and institutional reform.
+        </div>
 
-        **[Gradient Institute](https://www.gradientinstitute.org/)**
+        <div class="learning-resource-card">
+        <div class="resource-header">
+        <img src="https://www.gradientinstitute.org/assets/gradient-large.svg" alt="Gradient Institute logo" class="resource-logo">
+        <h4><a href="https://www.gradientinstitute.org/" target="_blank">Gradient Institute</a></h4>
+        </div>
         
         Independent nonprofit research institute building safety, ethics, accountability and transparency into AI systems. They develop ethically-aware AI algorithms and provide technical guidance on AI policy development.
+        </div>
 
-        **[CSIRO Responsible AI Engineering](https://research.csiro.au/ss/team/se4ai/responsible-ai-engineering/)**
+        <div class="learning-resource-card">
+        <div class="resource-header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/CSIRO_Logo.svg" alt="CSIRO logo" class="resource-logo">
+        <h4><a href="https://research.csiro.au/ss/team/se4ai/responsible-ai-engineering/" target="_blank">CSIRO Responsible AI Engineering</a></h4>
+        </div>
         
         Australia's national science agency team focusing on responsible AI engineering. They develop frameworks and methodologies for trustworthy AI systems across the entire AI lifecycle.
+        </div>
 
     design:
       columns: '2'

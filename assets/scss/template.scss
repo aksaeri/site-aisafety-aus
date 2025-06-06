@@ -332,6 +332,26 @@ p {
   flex-shrink: 0;
 }
 
+/* Resource logo styling */
+.resource-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: brightness(1);
+  transition: filter 0.3s ease;
+}
+
+/* Dark mode logo adjustments */
+[data-theme="dark"] .resource-logo {
+  filter: brightness(1.2) contrast(0.9);
+}
+
+/* Fallback if logo fails to load */
+.resource-logo:not([src]) {
+  display: none;
+}
+
 .resource-header h4 {
   margin: 0;
   font-size: 1.1rem;
@@ -397,6 +417,13 @@ p {
 
 [data-theme="dark"] .learning-resource-card p {
   color: #e2e8f0;
+}
+
+/* CTA buttons in resource cards */
+.learning-resource-card .btn-sm {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
 }
 
 /* Contact Section Enhancement */
