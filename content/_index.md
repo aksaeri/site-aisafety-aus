@@ -61,24 +61,32 @@ sections:
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
+        <a href="https://80000hours.org/problem-profiles/artificial-intelligence/" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/80%2C000_Hours_logo.svg" alt="80,000 Hours logo" class="resource-logo">
+        </a>
         </div>
         <div class="resource-header">
         <h4><a href="https://80000hours.org/problem-profiles/artificial-intelligence/" target="_blank">80,000 Hours AI Safety Guide</a></h4>
         </div>
         
         Career advice website 80,000 Hours has a guide explaining why preventing AI catastrophe is crucial, introduces technical safety issues, risks, and career paths in the field (~30 mins).
+        
+        <a href="https://80000hours.org/problem-profiles/artificial-intelligence/" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the 80,000 Hours AI Safety Guide</a>
         </div>
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
+        <a href="https://bluedot.org/courses/future-of-ai" target="_blank">
         <img src="https://bluedot.org/images/logo/BlueDot_Impact_Logo.svg" alt="BlueDot Impact logo" class="resource-logo">
+        </a>
         </div>
         <div class="resource-header">
         <h4><a href="https://bluedot.org/courses/future-of-ai" target="_blank">Future of AI Course</a></h4>
         </div>
         
         Global challenges education non-profit BlueDot Impact has an accessible introduction to the rapid increase in AI capabilities and associated challenges (2 hours). A good starting point to get oriented in AI developments and their implications. BlueDot also offers more in-depth courses in [technical AI Safety](https://bluedot.org/courses/alignment), [AI governance](https://bluedot.org/courses/governance), and [economics of AI](https://bluedot.org/courses/economics-of-tai).
+        
+        <a href="https://bluedot.org/courses/future-of-ai" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Enroll in the 2-hour course</a>
         </div>
 
         ### Go deeper
@@ -90,6 +98,8 @@ sections:
         </div>
         
         Global synthesis from 100 experts across 30 countries on AI capabilities, risks, and technical safety measures as of early 2025.
+        
+        <a href="https://www.gov.uk/government/publications/international-ai-safety-report-2025" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Explore the comprehensive report</a>
         </div>
 
         <div class="learning-resource-card">
@@ -99,6 +109,8 @@ sections:
         </div>
         
         "Introduction to AI Safety, Ethics and Society" by Dan Hendrycks. A comprehensive free online textbook, also available as audiobook.
+        
+        <a href="https://www.aisafetybook.com/" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the textbook</a>
         </div>
 
         ### Australian Policy Resources
@@ -110,6 +122,8 @@ sections:
         </div>
         
         Official Australian government guidance providing 10 practical guardrails for organizations using AI, focusing on transparency, accountability, and risk management.
+        
+        <a href="https://www.industry.gov.au/publications/voluntary-ai-safety-standard" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the safety standard</a>
         </div>
 
         <div class="learning-resource-card">
@@ -119,6 +133,8 @@ sections:
         </div>
         
         Government proposals for mandatory AI safety requirements in high-risk settings, outlining regulatory approaches and implementation options.
+        
+        <a href="https://consult.industry.gov.au/ai-mandatory-guardrails" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Explore the discussion paper</a>
         </div>
         
         <div class="learning-resource-card">
@@ -128,6 +144,26 @@ sections:
         </div>
         
         Detailed policy submission on mandatory guardrails, providing comprehensive recommendations for Australian AI governance frameworks.
+        
+        <a href="https://www.goodancestors.org.au/s/Publications-2023-DISR-submission-safe-and-responsible-AI.pdf" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the policy submission</a>
+        </div>
+
+        ### Latest Policy Research
+
+        <div class="learning-resource-card">
+        <div class="resource-logo-container">
+        <a href="https://www.goodancestors.org.au/whitepaper" target="_blank">
+        <img src="/media/logos/Good_Ancestors_Logo.svg" alt="Good Ancestors Project logo" class="resource-logo">
+        </a>
+        </div>
+        <div class="resource-header">
+        <i class="fas fa-file-text text-primary"></i>
+        <h4><a href="https://www.goodancestors.org.au/whitepaper" target="_blank">Australian AI Policy White Paper 2025-2028</a></h4>
+        </div>
+        
+        Comprehensive policy framework for Australia's AI governance from 2025-2028. Shows 78% of Australians are concerned about negative AI outcomes and 86% support creating a new AI regulatory body. Outlines recommendations for launching an Australian AI Safety Institute, introducing an AI Act, and hosting an AI Safety Summit.
+        
+        <a href="https://www.goodancestors.org.au/whitepaper" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the white paper</a>
         </div>
 
     design:
@@ -143,7 +179,9 @@ sections:
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
+        <a href="https://aisafetyanz.com.au" target="_blank">
         <img src="/media/logos/AISafety_ANZ_logo.png" alt="AI Safety ANZ logo" class="resource-logo">
+        </a>
         </div>
         <div class="resource-header">
         <h4><a href="https://aisafetyanz.com.au" target="_blank">AI Safety Australia & New Zealand</a></h4>
@@ -156,29 +194,39 @@ sections:
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
+        <a href="https://www.australiansforaisafety.com.au/" target="_blank">
         <img src="/media/logos/australians_ai_safety_logo.webp" alt="Australians for AI Safety logo" class="resource-logo">
+        </a>
         </div>
         <div class="resource-header">
         <h4><a href="https://www.australiansforaisafety.com.au/" target="_blank">Australians for AI Safety</a></h4>
         </div>
         
         Group of experts publicly advocating for government action on AI risks. They publish open letters and policy recommendations for Australian policymakers and government agencies.
+        
+        <a href="https://www.australiansforaisafety.com.au/" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Sign an open letter to the Australian Government</a>
         </div>
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
+        <a href="https://www.goodancestors.org.au/" target="_blank">
         <img src="/media/logos/Good_Ancestors_Logo.svg" alt="Good Ancestors Project logo" class="resource-logo">
+        </a>
         </div>
         <div class="resource-header">
         <h4><a href="https://www.goodancestors.org.au/" target="_blank">Good Ancestors Project</a></h4>
         </div>
         
         Policy organization developing and advocating for solutions to this century's most challenging problems, including AI governance, biosecurity, and institutional reform.
+        
+        <a href="https://www.goodancestors.org.au/newsletter" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Join the newsletter</a>
         </div>
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
+        <a href="https://www.gradientinstitute.org/" target="_blank">
         <img src="https://www.gradientinstitute.org/assets/gradient-large.svg" alt="Gradient Institute logo" class="resource-logo">
+        </a>
         </div>
         <div class="resource-header">
         <h4><a href="https://www.gradientinstitute.org/" target="_blank">Gradient Institute</a></h4>
@@ -189,7 +237,9 @@ sections:
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
+        <a href="https://research.csiro.au/ss/team/se4ai/responsible-ai-engineering/" target="_blank">
         <img src="/media/logos/CSIRO_Logo.svg" alt="CSIRO logo" class="resource-logo">
+        </a>
         </div>
         <div class="resource-header">
         <h4><a href="https://research.csiro.au/ss/team/se4ai/responsible-ai-engineering/" target="_blank">CSIRO Responsible AI Engineering</a></h4>
