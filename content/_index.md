@@ -9,10 +9,11 @@ sections:
   - block: hero
     content:
       title: |-
-        AI is defining our future. 
-        Let's get it right.
+        AI Safety matters.
       text: |-
-        The most advanced AI systems are being developed rapidly, creating both unprecedented opportunities and catastrophic risks. Australia has a crucial role to play in ensuring AI benefits humanity.
+        Safe & ethical advanced AI could bring unprecedented benefits to humanity. 
+        But advanced AI is not safe by default. 
+        Australians have a crucial role to play in addressing the catastrophic risks from unsafe AI.
     design:
       background:
         image: 
@@ -20,6 +21,48 @@ sections:
           filters:
             brightness: 0.3
         text_color_light: true
+
+  # Site Directory
+  - block: markdown
+    id: directory
+    content:
+      title: Explore AI Safety in Australia
+      text: |-
+        <div class="directory-grid">
+          <a href="#learn" class="directory-card">
+            <div class="directory-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h4>Learn</h4>
+            <p>Understand AI risks and safety.</p>
+          </a>
+          
+          <a href="#contribute-skills" class="directory-card">
+            <div class="directory-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h4>Contribute Your Skills</h4>
+            <p>Apply your expertise to advance AI safety.</p>
+          </a>
+          
+          <a href="#contribute-voice" class="directory-card">
+            <div class="directory-icon">
+              <i class="fas fa-microphone"></i>
+            </div>
+            <h4>Contribute Your Voice</h4>
+            <p>Advocate for AI safety.</p>
+          </a>
+          
+          <a href="#community" class="directory-card">
+            <div class="directory-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h4>Connect with Community</h4>
+            <p>Join Australians who care about AI safety</p>
+          </a>
+        </div>
+    design:
+      columns: '1'
 
   # 1. Learn about AI Safety
   - block: markdown
@@ -31,12 +74,10 @@ sections:
 
         **AI governance** focuses on institutions, policies, and decision-making processes that shape how AI is developed and deployed safely.
 
-        ### Learning Resources
-
         <div class="learning-resource-card">
         <div class="resource-header">
         <i class="fab fa-youtube text-danger"></i>
-        <h4><a href="https://www.youtube.com/watch?v=qrvK_KuIeJk" target="_blank">Geoffrey Hinton Interview</a></h4>
+        <h4><a href="https://www.youtube.com/watch?v=qrvK_KuIeJk" target="_blank">Watch Geoffrey Hinton, "Godfather of AI", explain AI risks</a></h4>
         </div>
         
         Nobel laureate and "Godfather of AI" Geoffrey Hinton explains AI risks in this 60 Minutes television interview, including warnings about loss of human control (15 mins). Geoffrey Hinton has researched AI for decades, and left Google Brain in 2023 to be able to speak about AI risks more freely.
@@ -49,7 +90,7 @@ sections:
         <div class="learning-resource-card">
         <div class="resource-header">
         <i class="fab fa-youtube text-danger"></i>
-        <h4><a href="https://www.youtube.com/watch?v=qe9QSCF-d88" target="_blank">Yoshua Bengio TED talk</a></h4>
+        <h4><a href="https://www.youtube.com/watch?v=qe9QSCF-d88" target="_blank">Watch Nobel Laureate Yoshua Bengio introduce catastrophic AI risks</a></h4>
         </div>
 
         Nobel laureate Yoshua Bengio presents the case for taking catastrophic risks from AI seriously in this TED talk (15 mins).
@@ -60,16 +101,50 @@ sections:
         </div>
 
         <div class="learning-resource-card">
+        <div class="resource-header">
+        <i class="fas fa-file-alt text-primary"></i>
+        <h4><a href="https://www.gov.uk/government/publications/international-ai-safety-report-2025" target="_blank">International AI Safety Report 2025</a></h4>
+        </div>
+        
+        Global synthesis from 100 experts across 30 countries on AI capabilities, risks, and technical safety measures as of early 2025.
+        
+        <a href="https://www.gov.uk/government/publications/international-ai-safety-report-2025" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Explore the comprehensive report</a>
+        </div>
+
+        <div class="learning-resource-card">
+        <div class="resource-header">
+        <i class="fas fa-shield-alt text-primary"></i>
+        <h4><a href="https://www.industry.gov.au/publications/voluntary-ai-safety-standard" target="_blank">Australian Voluntary AI Safety Standard</a></h4>
+        </div>
+        
+        Current Australian government guidance for organizations using AI, including 10 guardrails focused on accountability, risk management, evaluations, and transparency.
+        
+        <a href="https://www.industry.gov.au/publications/voluntary-ai-safety-standard" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the safety standard</a>
+        </div>
+
+
+    design:
+      columns: '2'
+
+  # 2. Contribute Your Skills
+  - block: markdown
+    id: contribute-skills
+    content:
+      title: Contribute Your Skills
+      text: |-
+        Apply your professional expertise to advance AI safety.
+
+        <div class="learning-resource-card">
         <div class="resource-logo-container">
         <a href="https://80000hours.org/problem-profiles/artificial-intelligence/" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/80%2C000_Hours_logo.svg" alt="80,000 Hours logo" class="resource-logo">
+        <img src="/media/logos/80000_hours_logo.svg" alt="80,000 Hours logo" class="resource-logo">
         </a>
         </div>
         <div class="resource-header">
         <h4><a href="https://80000hours.org/problem-profiles/artificial-intelligence/" target="_blank">80,000 Hours AI Safety Guide</a></h4>
         </div>
         
-        Career advice website 80,000 Hours has a guide explaining why preventing AI catastrophe is crucial, introduces technical safety issues, risks, and career paths in the field (~30 mins).
+        Career advice website 80,000 Hours introduces AI safety issues, risks, and career paths in the field (~30 mins).
         
         <a href="https://80000hours.org/problem-profiles/artificial-intelligence/" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the 80,000 Hours AI Safety Guide</a>
         </div>
@@ -88,110 +163,16 @@ sections:
         
         <a href="https://bluedot.org/courses/future-of-ai" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Enroll in the 2-hour course</a>
         </div>
-
-        ### Go deeper
-
-        <div class="learning-resource-card">
-        <div class="resource-header">
-        <i class="fas fa-file-alt text-success"></i>
-        <h4><a href="https://www.gov.uk/government/publications/international-ai-safety-report-2025" target="_blank">International AI Safety Report 2025</a></h4>
-        </div>
-        
-        Global synthesis from 100 experts across 30 countries on AI capabilities, risks, and technical safety measures as of early 2025.
-        
-        <a href="https://www.gov.uk/government/publications/international-ai-safety-report-2025" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Explore the comprehensive report</a>
-        </div>
-
-        <div class="learning-resource-card">
-        <div class="resource-header">
-        <i class="fas fa-book text-warning"></i>
-        <h4><a href="https://www.aisafetybook.com/" target="_blank">AI Safety Textbook</a></h4>
-        </div>
-        
-        "Introduction to AI Safety, Ethics and Society" by Dan Hendrycks. A comprehensive free online textbook, also available as audiobook.
-        
-        <a href="https://www.aisafetybook.com/" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the textbook</a>
-        </div>
-
-        ### Australian Policy Resources
-
-        <div class="learning-resource-card">
-        <div class="resource-header">
-        <i class="fas fa-shield-alt text-primary"></i>
-        <h4><a href="https://www.industry.gov.au/publications/voluntary-ai-safety-standard" target="_blank">Voluntary AI Safety Standard</a></h4>
-        </div>
-        
-        Official Australian government guidance providing 10 practical guardrails for organizations using AI, focusing on transparency, accountability, and risk management.
-        
-        <a href="https://www.industry.gov.au/publications/voluntary-ai-safety-standard" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the safety standard</a>
-        </div>
-
-        <div class="learning-resource-card">
-        <div class="resource-header">
-        <i class="fas fa-balance-scale text-secondary"></i>
-        <h4><a href="https://consult.industry.gov.au/ai-mandatory-guardrails" target="_blank">Mandatory Guardrails Discussion Paper</a></h4>
-        </div>
-        
-        Government proposals for mandatory AI safety requirements in high-risk settings, outlining regulatory approaches and implementation options.
-        
-        <a href="https://consult.industry.gov.au/ai-mandatory-guardrails" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Explore the discussion paper</a>
-        </div>
-        
-        <div class="learning-resource-card">
-        <div class="resource-header">
-        <i class="fas fa-users text-info"></i>
-        <h4><a href="https://www.goodancestors.org.au/s/Publications-2023-DISR-submission-safe-and-responsible-AI.pdf" target="_blank">Good Ancestors Policy Submission</a></h4>
-        </div>
-        
-        Detailed policy submission on mandatory guardrails, providing comprehensive recommendations for Australian AI governance frameworks.
-        
-        <a href="https://www.goodancestors.org.au/s/Publications-2023-DISR-submission-safe-and-responsible-AI.pdf" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the policy submission</a>
-        </div>
-
-        ### Latest Policy Research
-
-        <div class="learning-resource-card">
-        <div class="resource-logo-container">
-        <a href="https://www.goodancestors.org.au/whitepaper" target="_blank">
-        <img src="/media/logos/Good_Ancestors_Logo.svg" alt="Good Ancestors Project logo" class="resource-logo">
-        </a>
-        </div>
-        <div class="resource-header">
-        <i class="fas fa-file-text text-primary"></i>
-        <h4><a href="https://www.goodancestors.org.au/whitepaper" target="_blank">Australian AI Policy White Paper 2025-2028</a></h4>
-        </div>
-        
-        Comprehensive policy framework for Australia's AI governance from 2025-2028. Shows 78% of Australians are concerned about negative AI outcomes and 86% support creating a new AI regulatory body. Outlines recommendations for launching an Australian AI Safety Institute, introducing an AI Act, and hosting an AI Safety Summit.
-        
-        <a href="https://www.goodancestors.org.au/whitepaper" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Read the white paper</a>
-        </div>
-
     design:
       columns: '2'
 
-  # 2. Australian Organisations and Groups  
+  # 3. Contribute Your Voice
   - block: markdown
-    id: community
+    id: contribute-voice
     content:
-      title: Australian Organisations and Groups
+      title: Contribute Your Voice
       text: |-
-        Connect with the growing AI safety community across Australia. From research institutes to advocacy groups, there are many ways to get involved.
-
-        <div class="learning-resource-card">
-        <div class="resource-logo-container">
-        <a href="https://aisafetyanz.com.au" target="_blank">
-        <img src="/media/logos/AISafety_ANZ_logo.png" alt="AI Safety ANZ logo" class="resource-logo">
-        </a>
-        </div>
-        <div class="resource-header">
-        <h4><a href="https://aisafetyanz.com.au" target="_blank">AI Safety Australia & New Zealand</a></h4>
-        </div>
         
-        Community for people in Australia or New Zealand interested in preventing existential risk from AI. Organizes regular online events and maintains active discussions on current developments.
-        
-        <a href="https://aisafetysupport.us14.list-manage.com/subscribe?u=d1f02c8a936106ad288cdf2ec&id=2e002b7472" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Join the mailing list</a>
-        </div>
-
         <div class="learning-resource-card">
         <div class="resource-logo-container">
         <a href="https://www.australiansforaisafety.com.au/" target="_blank">
@@ -205,6 +186,30 @@ sections:
         Group of experts publicly advocating for government action on AI risks. They publish open letters and policy recommendations for Australian policymakers and government agencies.
         
         <a href="https://www.australiansforaisafety.com.au/" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Sign an open letter to the Australian Government</a>
+        </div>
+    design:
+      columns: '2'
+
+  # 4. Connect with Community  
+  - block: markdown
+    id: community
+    content:
+      title: Connect with Community
+      text: |-
+       
+        <div class="learning-resource-card">
+        <div class="resource-logo-container">
+        <a href="https://aisafetyanz.com.au" target="_blank">
+        <img src="/media/logos/AISafety_ANZ_logo.png" alt="AI Safety ANZ logo" class="resource-logo">
+        </a>
+        </div>
+        <div class="resource-header">
+        <h4><a href="https://aisafetyanz.com.au" target="_blank">AI Safety Australia & New Zealand</a></h4>
+        </div>
+        
+        Community for people in Australia or New Zealand interested in preventing existential risk from AI.
+        
+        <a href="https://aisafetysupport.us14.list-manage.com/subscribe?u=d1f02c8a936106ad288cdf2ec&id=2e002b7472" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Join the mailing list</a>
         </div>
 
         <div class="learning-resource-card">
@@ -221,6 +226,16 @@ sections:
         
         <a href="https://www.goodancestors.org.au/newsletter" target="_blank" class="btn btn-outline-primary btn-sm mt-2">Join the newsletter</a>
         </div>
+    design:
+      columns: '2'
+
+  # 5. Additional Resources
+  - block: markdown
+    id: additional-resources
+    content:
+      title: Additional Resources
+      text: |-
+        Explore additional Australian organizations conducting research and developing solutions for responsible AI systems.
 
         <div class="learning-resource-card">
         <div class="resource-logo-container">
@@ -232,7 +247,7 @@ sections:
         <h4><a href="https://www.gradientinstitute.org/" target="_blank">Gradient Institute</a></h4>
         </div>
         
-        Independent nonprofit research institute building safety, ethics, accountability and transparency into AI systems. They develop ethically-aware AI algorithms and provide technical guidance on AI policy development.
+        Independent nonprofit research institute building safety, ethics, accountability and transparency into AI systems. They train organisations operating AI systems and provide technical guidance on AI policy development.
         </div>
 
         <div class="learning-resource-card">
@@ -245,7 +260,7 @@ sections:
         <h4><a href="https://research.csiro.au/ss/team/se4ai/responsible-ai-engineering/" target="_blank">CSIRO Responsible AI Engineering</a></h4>
         </div>
         
-        Australia's national science agency team focusing on responsible AI engineering. They develop frameworks and methodologies for trustworthy AI systems across the entire AI lifecycle.
+        Australia's national science agency team focusing on responsible AI engineering, including AI system safety. They develop frameworks and methodologies for safe & trustworthy AI systems.
         </div>
 
     design:
